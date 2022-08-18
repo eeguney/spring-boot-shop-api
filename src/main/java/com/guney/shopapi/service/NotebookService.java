@@ -6,13 +6,13 @@ import java.util.List;
 
 public interface NotebookService {
 
-    // get all phones
+    // get all notebooks
     List<Notebook> getAll();
 
-    // get a phone by id
+    // get a notebook by id
     Notebook getById(int theId);
 
-    // save new phone
+    // save new notebook
     Notebook save(Notebook theProduct);
 
     // delete by id
